@@ -1,5 +1,23 @@
-body{
+.main-body{
     background-color: #e7e5df;
+}
+.navigation{
+    background-color: #393e41;
+    border-radius: 8px;
+    height: 24px;
+    min-width: 700px;
+    padding-top: 6px;
+    text-align: center; 
+    
+   
+}
+.navigation-link{
+    display: inline-block;
+    background-color: #e7bb41;
+    color: #393e41;
+    width: 200px;
+   margin: 0 auto; 
+    
 }
 section{
     background-color: #d3d0cb;
@@ -7,9 +25,7 @@ section{
 p{
     color:#393e41;
 }
-.header-link{
-    color: #393e41;
-}
+
 .main-header{
     color: #e7bb41;
 }
