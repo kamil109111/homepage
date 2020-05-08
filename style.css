@@ -1,5 +1,6 @@
 .main-body{
     background-color: #e7e5df;
+    min-width: 700px;
 }
 .navigation{
     background-color: #393e41;
@@ -7,9 +8,7 @@
     height: 24px;
     min-width: 700px;
     padding-top: 6px;
-    text-align: center; 
-    
-   
+    text-align: center;   
 }
 .navigation-link{
     display: inline-block;
@@ -19,16 +18,25 @@
    margin: 0 auto; 
     
 }
-section{
-    background-color: #d3d0cb;
+.main-header{
+    color: #e7bb41;
+    text-align: center;
+    background-color: #393e41;
+    border-radius: 8px;
+}
+.rounded-image{
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.main-section{
+    background-color: #d3d0cb;  
 }
 p{
     color:#393e41;
 }
 
-.main-header{
-    color: #e7bb41;
-}
+
 .header-style{
     color: #44bba4;
 }
